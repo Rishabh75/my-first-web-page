@@ -1,0 +1,102 @@
+body {
+	font-size: 20px;
+	padding: 5%;
+	margin: auto;
+	box-sizing: border-box;
+	font-family: "Times New Roman",Times,serif;
+
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: red;
+	text-decoration:underline;
+}
+h2 {
+	background-color: #d5fb66;
+	border-radius: 30px;
+}
+article {
+	background-color: #cecccc;
+}
+@media (min-width: 992px) {
+	article {
+		width: 27%;
+		border:2px inset black;
+		border-radius: 10px;
+		float: left;
+		margin: 10px;
+		padding: 10px;
+		font-style: italic;
+		padding-top: 0px;
+	}
+	h2 {
+		position: relative;
+		right: 0px;
+		top: 0px;
+		padding: 5px;
+		width: 45%;
+		border:1px solid black;
+		text-align: right;
+		margin:10px 10px 10px 55%; 
+		font-style: normal;
+		font-weight: bold;
+
+	}
+
+}
+@media (max-width: 991px) and (min-width:768px) {
+	article {
+		width:35%;
+	    float: left;
+		border:2px outset black;
+		border-radius: 10px;
+		margin: 30px;
+		margin-right: 15px;
+		padding: 30px 5px 10px 30px;
+	}
+	.beef {
+		float: right;
+	}
+	.sushi {
+		clear: left;
+		width: 90%;
+		padding: 15px 5px 10px 30px;
+		margin: 10px;
+		margin-left: 30px;
+		margin-right: 15px;
+	}
+	h2 {
+		position: relative;
+		left: 50%;
+		top: 0px;
+		right: 1px;
+		width: 42%;
+		text-align: right;
+		border:1px dashed black;
+		padding: 10px;
+		margin-top: 0px;
+		margin-right: 10px;
+	}
+} 
+@media (max-width: 767px) {
+	article {
+		width: 80%;
+		border:2px solid black;
+		margin: 30px 20px;
+		padding: 15px;
+		border-radius: 10px;
+		padding-right: 15px;
+	}
+	h2 {
+		position: relative;
+		left: 50%;
+		top: 0px;
+		right: 1px;
+		width: 45%;
+		text-align: right;
+		border:1px dashed black;
+		padding: 10px;
+		margin-top: 0px;
+	}
+}
